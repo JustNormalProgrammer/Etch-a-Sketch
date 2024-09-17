@@ -1,0 +1,33 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color:lightslategray;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: grey;
+}
+.container{
+    width: 900px;
+    height: 900px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.square {
+    flex: auto;
+    background-color: white;
+}
+.color {
+    background-color: blue;
+}
