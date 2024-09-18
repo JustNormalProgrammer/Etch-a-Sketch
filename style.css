@@ -4,6 +4,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: sans-serif;
+    user-select: none;
 }
 button{
     border: none;
@@ -13,13 +15,19 @@ button{
     background-color:lightslategray;
     transition: 0.5s;
 }
+h1{
+    user-select: text;
+    text-shadow:
+    1px 1px 1px azure,
+    2px 2px 1px blue;
+}
 button:hover{
     background-color: grey;
 }
 .container{
     width: 900px;
     height: 900px;
-    background-color: aquamarine;
+    background-color: azure;
     display: flex;
     flex-wrap: wrap;
     gap: 0px;
